@@ -16,6 +16,9 @@ public class AllPrime {
     for (int i = low; i <= high; i++) {
       int div = 2;
       boolean prime = true; 
+      if(i==1){
+        prime = false;
+      }
       while (div * div <= i) {
         
         int rem = i % div;
