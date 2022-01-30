@@ -9,7 +9,7 @@
 
     while(pq.size()>0){
       Node temp = pq.remove(); //remove
-      System.out.print(temp + " "); //print
+      System.out.print(temp.data + " "); //print
 
       //add to cq
       if(temp.left != null){
