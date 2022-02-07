@@ -11,6 +11,7 @@
 
   public static int min(Node node) {
     // write your code here
+   if(node == null) return -1;
     if(node.left!= null){
       return min(node.left);
     }else{
